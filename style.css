@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+ul {
+    list-style-type: square;
+    background-color: orangered;
+    padding: 50px;
+    margin: 50px;
+    font-size: 20px;
+}
+
+ol {
+    list-style-type: upper-alpha;
+    background-color: orangered;
+    padding: 50px;
+    margin: 50px;
+    font-size: 20px;
+}
+
+ul li {
+    list-style-type: none ;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    /* background-color: rgb(156, 112, 40); */
+    /* background-color: burlywood; */
+    background-color: brown;
+    border-radius: 5px;
+}
+
+header {
+    background-color: orangered;
+    height: 60px;
+}
+
+#list {
+    border-bottom: 5px solid green;
+}
+
+.hexa {
+    /* background-color: #c45656; */
+    background-color: #3926;
+}

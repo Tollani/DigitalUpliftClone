@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card"> 1</div>
+        <div class ="card2"> 2</div>
+        <div class="fixed"> 3</div>
+        <div class="sticky"> 4</div>
+        <div class="zindex"> 5</div>
+        <style>
+            .body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background: lightgrey;
+
+            }
+            .container{
+                height: 70vh;
+                width: 70vw;
+                background: papayawhip;
+                position: relative;
+                
+            }
+            .card{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                background: lightskyblue;
+                top: 10px;
+                left: 10px;
+            }
+            .card2{
+                position: absolute;
+                height: 100px;
+                width: 100px;
+                background: blue;
+                top: 10px;
+                right: 30px;
+
+               
+            }
+            .fixed{
+                position: fixed;
+                height: 100px;
+                width: 100px;
+                background: red;
+                bottom: 30px;
+                right: 30px;
+            }
+            .sticky{
+                position: sticky;
+                height: 100px;
+                width: 100px;
+                background: gray;
+                top: 20px;
+                
+            }
+            .zindex {
+                position: absolute;
+                height: 100px;
+                width: 100px;
+                background: blue;
+                z-index: 1;
+               
+            }
+        </style>
+    </div>
+</body>
+</html>
